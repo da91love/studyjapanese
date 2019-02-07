@@ -1,0 +1,1248 @@
+[
+	{
+		"id": "1",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "あ",
+		"char_pron": "a"
+	},
+	{
+		"id": "2",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "い",
+		"char_pron": "i"
+	},
+	{
+		"id": "3",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "う",
+		"char_pron": "u"
+	},
+	{
+		"id": "4",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "え",
+		"char_pron": "e"
+	},
+	{
+		"id": "5",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "お",
+		"char_pron": "o"
+	},
+	{
+		"id": "6",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "か",
+		"char_pron": "ka"
+	},
+	{
+		"id": "7",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "き",
+		"char_pron": "ki"
+	},
+	{
+		"id": "8",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "く",
+		"char_pron": "ku"
+	},
+	{
+		"id": "9",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "け",
+		"char_pron": "ke"
+	},
+	{
+		"id": "10",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "こ",
+		"char_pron": "ko"
+	},
+	{
+		"id": "11",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "さ",
+		"char_pron": "sa"
+	},
+	{
+		"id": "12",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "し",
+		"char_pron": "si"
+	},
+	{
+		"id": "13",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "す",
+		"char_pron": "su"
+	},
+	{
+		"id": "14",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "せ",
+		"char_pron": "se"
+	},
+	{
+		"id": "15",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "そ",
+		"char_pron": "so"
+	},
+	{
+		"id": "16",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "た",
+		"char_pron": "ta"
+	},
+	{
+		"id": "17",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "ち",
+		"char_pron": "chi"
+	},
+	{
+		"id": "18",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "つ",
+		"char_pron": "tsu"
+	},
+	{
+		"id": "19",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "て",
+		"char_pron": "te"
+	},
+	{
+		"id": "20",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "と",
+		"char_pron": "to"
+	},
+	{
+		"id": "21",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "な",
+		"char_pron": "na"
+	},
+	{
+		"id": "22",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "に",
+		"char_pron": "ni"
+	},
+	{
+		"id": "23",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "ぬ",
+		"char_pron": "nu"
+	},
+	{
+		"id": "24",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "ね",
+		"char_pron": "ne"
+	},
+	{
+		"id": "25",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "の",
+		"char_pron": "no"
+	},
+	{
+		"id": "26",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "は",
+		"char_pron": "ha"
+	},
+	{
+		"id": "27",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "ひ",
+		"char_pron": "hi"
+	},
+	{
+		"id": "28",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "ふ",
+		"char_pron": "fu"
+	},
+	{
+		"id": "29",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "へ",
+		"char_pron": "he"
+	},
+	{
+		"id": "30",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "ほ",
+		"char_pron": "ho"
+	},
+	{
+		"id": "31",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "ま",
+		"char_pron": "ma"
+	},
+	{
+		"id": "32",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "み",
+		"char_pron": "mi"
+	},
+	{
+		"id": "33",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "む",
+		"char_pron": "mu"
+	},
+	{
+		"id": "34",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "め",
+		"char_pron": "me"
+	},
+	{
+		"id": "35",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "も",
+		"char_pron": "mo"
+	},
+	{
+		"id": "36",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "ら",
+		"char_pron": "ra"
+	},
+	{
+		"id": "37",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "り",
+		"char_pron": "ri"
+	},
+	{
+		"id": "38",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "る",
+		"char_pron": "ru"
+	},
+	{
+		"id": "39",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "れ",
+		"char_pron": "re"
+	},
+	{
+		"id": "40",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "ろ",
+		"char_pron": "ro"
+	},
+	{
+		"id": "41",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "や",
+		"char_pron": "ya"
+	},
+	{
+		"id": "42",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "ゆ",
+		"char_pron": "yu"
+	},
+	{
+		"id": "43",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "よ",
+		"char_pron": "yo"
+	},
+	{
+		"id": "44",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "わ",
+		"char_pron": "wa"
+	},
+	{
+		"id": "45",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "を",
+		"char_pron": "wo"
+	},
+	{
+		"id": "46",
+		"char_type": "hira",
+		"char_group": "char",
+		"char": "ん",
+		"char_pron": "nn"
+	},
+	{
+		"id": "47",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "が",
+		"char_pron": "ga"
+	},
+	{
+		"id": "48",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ぎ",
+		"char_pron": "gi"
+	},
+	{
+		"id": "49",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ぐ",
+		"char_pron": "gu"
+	},
+	{
+		"id": "50",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "げ",
+		"char_pron": "ge"
+	},
+	{
+		"id": "51",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ご",
+		"char_pron": "go"
+	},
+	{
+		"id": "52",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ざ",
+		"char_pron": "za"
+	},
+	{
+		"id": "53",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "じ",
+		"char_pron": "ji"
+	},
+	{
+		"id": "54",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ず",
+		"char_pron": "zu"
+	},
+	{
+		"id": "55",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ぜ",
+		"char_pron": "ze"
+	},
+	{
+		"id": "56",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ぞ",
+		"char_pron": "zo"
+	},
+	{
+		"id": "57",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "だ",
+		"char_pron": "da"
+	},
+	{
+		"id": "58",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ぢ",
+		"char_pron": "ji"
+	},
+	{
+		"id": "59",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "づ",
+		"char_pron": "zu"
+	},
+	{
+		"id": "60",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "で",
+		"char_pron": "de"
+	},
+	{
+		"id": "61",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ど",
+		"char_pron": "do"
+	},
+	{
+		"id": "62",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ば",
+		"char_pron": "ba"
+	},
+	{
+		"id": "63",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "び",
+		"char_pron": "bi"
+	},
+	{
+		"id": "64",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ぶ",
+		"char_pron": "bu"
+	},
+	{
+		"id": "65",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "べ",
+		"char_pron": "be"
+	},
+	{
+		"id": "66",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ぼ",
+		"char_pron": "bo"
+	},
+	{
+		"id": "67",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ぱ",
+		"char_pron": "pa"
+	},
+	{
+		"id": "68",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ぴ",
+		"char_pron": "pi"
+	},
+	{
+		"id": "69",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ぷ",
+		"char_pron": "pu"
+	},
+	{
+		"id": "70",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ぺ",
+		"char_pron": "pe"
+	},
+	{
+		"id": "71",
+		"char_type": "hira",
+		"char_group": "tak",
+		"char": "ぽ",
+		"char_pron": "po"
+	},
+	{
+		"id": "72",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "きゃ",
+		"char_pron": "kya"
+	},
+	{
+		"id": "73",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "きゅ",
+		"char_pron": "kyu"
+	},
+	{
+		"id": "74",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "きょ",
+		"char_pron": "kyo"
+	},
+	{
+		"id": "75",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "しゃ",
+		"char_pron": "sha"
+	},
+	{
+		"id": "76",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "しゅ",
+		"char_pron": "shu"
+	},
+	{
+		"id": "77",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "しょ",
+		"char_pron": "sho"
+	},
+	{
+		"id": "78",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "ちゃ",
+		"char_pron": "cha"
+	},
+	{
+		"id": "79",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "ちゅ",
+		"char_pron": "chu"
+	},
+	{
+		"id": "80",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "ちょ",
+		"char_pron": "cho"
+	},
+	{
+		"id": "81",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "にゃ",
+		"char_pron": "nya"
+	},
+	{
+		"id": "82",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "にゅ",
+		"char_pron": "nyu"
+	},
+	{
+		"id": "83",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "にょ",
+		"char_pron": "nyo"
+	},
+	{
+		"id": "84",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "ひゃ",
+		"char_pron": "hya"
+	},
+	{
+		"id": "85",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "ひゅ",
+		"char_pron": "hyu"
+	},
+	{
+		"id": "86",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "ひょ",
+		"char_pron": "hyo"
+	},
+	{
+		"id": "87",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "みゃ",
+		"char_pron": "mya"
+	},
+	{
+		"id": "88",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "みゅ",
+		"char_pron": "myu"
+	},
+	{
+		"id": "89",
+		"char_type": "hira",
+		"char_group": "yo",
+		"char": "みょ",
+		"char_pron": "myo"
+	},
+	{
+		"id": "90",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ア",
+		"char_pron": "a"
+	},
+	{
+		"id": "91",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "イ",
+		"char_pron": "i"
+	},
+	{
+		"id": "92",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ウ",
+		"char_pron": "u"
+	},
+	{
+		"id": "93",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "エ",
+		"char_pron": "e"
+	},
+	{
+		"id": "94",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "オ",
+		"char_pron": "o"
+	},
+	{
+		"id": "95",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "カ",
+		"char_pron": "ka"
+	},
+	{
+		"id": "96",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "キ",
+		"char_pron": "ki"
+	},
+	{
+		"id": "97",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ク",
+		"char_pron": "ku"
+	},
+	{
+		"id": "98",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ケ",
+		"char_pron": "ke"
+	},
+	{
+		"id": "99",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "コ",
+		"char_pron": "ko"
+	},
+	{
+		"id": "100",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "サ",
+		"char_pron": "sa"
+	},
+	{
+		"id": "101",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "シ",
+		"char_pron": "si"
+	},
+	{
+		"id": "102",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ス",
+		"char_pron": "su"
+	},
+	{
+		"id": "103",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "セ",
+		"char_pron": "se"
+	},
+	{
+		"id": "104",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ソ",
+		"char_pron": "so"
+	},
+	{
+		"id": "105",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "タ",
+		"char_pron": "ta"
+	},
+	{
+		"id": "106",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "チ",
+		"char_pron": "chi"
+	},
+	{
+		"id": "107",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ツ",
+		"char_pron": "tsu"
+	},
+	{
+		"id": "108",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "テ",
+		"char_pron": "te"
+	},
+	{
+		"id": "109",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ト",
+		"char_pron": "to"
+	},
+	{
+		"id": "110",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ナ",
+		"char_pron": "na"
+	},
+	{
+		"id": "111",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ニ",
+		"char_pron": "ni"
+	},
+	{
+		"id": "112",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ヌ",
+		"char_pron": "nu"
+	},
+	{
+		"id": "113",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ネ",
+		"char_pron": "ne"
+	},
+	{
+		"id": "114",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ノ",
+		"char_pron": "no"
+	},
+	{
+		"id": "115",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ハ",
+		"char_pron": "ha"
+	},
+	{
+		"id": "116",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ヒ",
+		"char_pron": "hi"
+	},
+	{
+		"id": "117",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "フ",
+		"char_pron": "fu"
+	},
+	{
+		"id": "118",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ヘ",
+		"char_pron": "he"
+	},
+	{
+		"id": "119",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ホ",
+		"char_pron": "ho"
+	},
+	{
+		"id": "120",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "マ",
+		"char_pron": "ma"
+	},
+	{
+		"id": "121",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ミ",
+		"char_pron": "mi"
+	},
+	{
+		"id": "122",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ム",
+		"char_pron": "mu"
+	},
+	{
+		"id": "123",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "メ",
+		"char_pron": "me"
+	},
+	{
+		"id": "124",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "モ",
+		"char_pron": "mo"
+	},
+	{
+		"id": "125",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ラ",
+		"char_pron": "ra"
+	},
+	{
+		"id": "126",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "リ",
+		"char_pron": "ri"
+	},
+	{
+		"id": "127",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ル",
+		"char_pron": "ru"
+	},
+	{
+		"id": "128",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "レ",
+		"char_pron": "re"
+	},
+	{
+		"id": "129",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ロ",
+		"char_pron": "ro"
+	},
+	{
+		"id": "130",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ヤ",
+		"char_pron": "ya"
+	},
+	{
+		"id": "131",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ユ",
+		"char_pron": "yu"
+	},
+	{
+		"id": "132",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ヨ",
+		"char_pron": "yo"
+	},
+	{
+		"id": "133",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ワ",
+		"char_pron": "wa"
+	},
+	{
+		"id": "134",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ヲ",
+		"char_pron": "wo"
+	},
+	{
+		"id": "135",
+		"char_type": "gata",
+		"char_group": "char",
+		"char": "ン",
+		"char_pron": "nn"
+	},
+	{
+		"id": "136",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ガ",
+		"char_pron": "ga"
+	},
+	{
+		"id": "137",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ギ",
+		"char_pron": "gi"
+	},
+	{
+		"id": "138",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "グ",
+		"char_pron": "gu"
+	},
+	{
+		"id": "139",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ゲ",
+		"char_pron": "ge"
+	},
+	{
+		"id": "140",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ゴ",
+		"char_pron": "go"
+	},
+	{
+		"id": "141",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ザ",
+		"char_pron": "za"
+	},
+	{
+		"id": "142",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ジ",
+		"char_pron": "ji"
+	},
+	{
+		"id": "143",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ズ",
+		"char_pron": "zu"
+	},
+	{
+		"id": "144",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ゼ",
+		"char_pron": "ze"
+	},
+	{
+		"id": "145",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ゾ",
+		"char_pron": "zo"
+	},
+	{
+		"id": "146",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ダ",
+		"char_pron": "da"
+	},
+	{
+		"id": "147",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ヂ",
+		"char_pron": "ji"
+	},
+	{
+		"id": "148",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ヅ",
+		"char_pron": "zu"
+	},
+	{
+		"id": "149",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "デ",
+		"char_pron": "de"
+	},
+	{
+		"id": "150",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ド",
+		"char_pron": "do"
+	},
+	{
+		"id": "151",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "バ",
+		"char_pron": "ba"
+	},
+	{
+		"id": "152",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ビ",
+		"char_pron": "bi"
+	},
+	{
+		"id": "153",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ブ",
+		"char_pron": "bu"
+	},
+	{
+		"id": "154",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ベ",
+		"char_pron": "be"
+	},
+	{
+		"id": "155",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ボ",
+		"char_pron": "bo"
+	},
+	{
+		"id": "156",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "パ",
+		"char_pron": "pa"
+	},
+	{
+		"id": "157",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ピ",
+		"char_pron": "pi"
+	},
+	{
+		"id": "158",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "プ",
+		"char_pron": "pu"
+	},
+	{
+		"id": "159",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ペ",
+		"char_pron": "pe"
+	},
+	{
+		"id": "160",
+		"char_type": "gata",
+		"char_group": "tak",
+		"char": "ポ",
+		"char_pron": "po"
+	},
+	{
+		"id": "161",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "キャ",
+		"char_pron": "kya"
+	},
+	{
+		"id": "162",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "キュ",
+		"char_pron": "kyu"
+	},
+	{
+		"id": "163",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "キョ",
+		"char_pron": "kyo"
+	},
+	{
+		"id": "164",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "シャ",
+		"char_pron": "sha"
+	},
+	{
+		"id": "165",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "シュ",
+		"char_pron": "shu"
+	},
+	{
+		"id": "166",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "ショ",
+		"char_pron": "sho"
+	},
+	{
+		"id": "167",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "チャ",
+		"char_pron": "cha"
+	},
+	{
+		"id": "168",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "チュ",
+		"char_pron": "chu"
+	},
+	{
+		"id": "169",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "チョ",
+		"char_pron": "cho"
+	},
+	{
+		"id": "170",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "ニャ",
+		"char_pron": "nya"
+	},
+	{
+		"id": "171",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "ニュ",
+		"char_pron": "nyu"
+	},
+	{
+		"id": "172",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "ニョ",
+		"char_pron": "nyo"
+	},
+	{
+		"id": "173",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "ヒャ",
+		"char_pron": "hya"
+	},
+	{
+		"id": "174",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "ヒュ",
+		"char_pron": "hyu"
+	},
+	{
+		"id": "175",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "ヒョ",
+		"char_pron": "hyo"
+	},
+	{
+		"id": "176",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "ミャ",
+		"char_pron": "mya"
+	},
+	{
+		"id": "177",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "ミュ",
+		"char_pron": "my"
+	},
+	{
+		"id": "178",
+		"char_type": "gata",
+		"char_group": "yo",
+		"char": "ミョ",
+		"char_pron": "myo"
+	}
+]

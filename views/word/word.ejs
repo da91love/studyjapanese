@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    단어암기 페이지
+-->
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108664644-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108664644-1');
+    </script>
+    <!-- /Global site tag (gtag.js) - Google Analytics -->
+
+    <!--Google add sense-->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9826976710647564",
+            enable_page_level_ads: true
+        });
+    </script>
+    <!--/Google add sense-->
+
+
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Open Study Japanese</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/css/bootstrap-slider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.0/sweetalert2.min.css">
+
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+          type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/word.css" rel="stylesheet">
+
+</head>
+
+
+
+
+
+<body id="contents">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/" i18n="index.title"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/char" i18n="comm.character"></a></li>
+                <li><a href="/word" i18n="comm.word"></a></li>
+                <li><a href="/kanji" i18n="comm.kanji"></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/about" i18n="index.about"></a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-globe fa-lg" aria-hidden="true"></i>
+                        <span i18n="comm.language"></span>
+                    </a>
+
+                    <ul class="dropdown-menu drop-language">
+                        <li><a tabindex="-1" value="en">English</a></li>
+                        <li><a tabindex="-1" value="ko">Korean</a></li>
+                    </ul>
+                </li>
+                <!--<li><a href="#" i18n="index.login"></a></li>-->
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<!-- Navigation End-->
+
+
+<!-- Page Content -->
+<section class="content-section">
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li id="nav-tab-n5" class="word-tab active"><a data-toggle="tab" href="#tab-n5" i18n="comm.n5"></a></li>
+            <li id="nav-tab-n4" class="word-tab "><a data-toggle="tab" href="#tab-n4" i18n="comm.n4"></a></li>
+            <li id="nav-tab-n3" class="word-tab "><a data-toggle="tab" href="#tab-n3" i18n="comm.n3"></a></li>
+            <li id="nav-tab-n2" class="word-tab "><a data-toggle="tab" href="#tab-n2" i18n="comm.n2"></a></li>
+            <li id="nav-tab-n1" class="word-tab "><a data-toggle="tab" href="#tab-n1" i18n="comm.n1"></a></li>
+        </ul>
+
+        <!-- tab contents -->
+        <div class="tab-content">
+            <!-- tab contants header -->
+            <div class="controller">
+                <div class="play-ctr">
+                    <!-- selectpicker will be added -->
+                    <button type="button" id="btn-start-auto" class="btn btn-success btn-auto ">
+                        <i class="fa fa-magic fa-lg" aria-hidden="true"></i>
+                    </button>
+                    <button type="button" id="btn-stop-auto" class="btn btn-danger btn-auto element-off">
+                        <i class="fa fa-stop" aria-hidden="true"></i>
+                    </button>
+                    <i id="day-list" class="fa fa-list-alt fa-2x ctr-list" aria-hidden="true" data-toggle="modal" data-target="#modal-list"></i>
+                    <i id="config" class="fa fa-cog fa-2x ctr-config" aria-hidden="true" data-toggle="modal" data-target="#modal-config"></i>
+                </div>
+            </div>
+            <!-- ./tab contants header -->
+
+            <div id="tab-n5" class="tab-pane fade in active">
+                <div id="caro-n5" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <!-- to be added -->
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#caro-n5" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#caro-n5" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div id="tab-n4" class="tab-pane fade">
+                <div id="caro-n4" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <!-- to be added -->
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#caro-n4" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#caro-n4" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div id="tab-n3" class="tab-pane fade">
+                <div id="caro-n3" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <!-- to be added -->
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#caro-n3" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#caro-n3" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div id="tab-n2" class="tab-pane fade">
+                <div id="caro-n2" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <!-- to be added -->
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#caro-n2" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#caro-n2" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div id="tab-n1" class="tab-pane fade">
+                <div id="caro-n1" class="carousel slide" data-ride="carousel" data-interval="false">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <!-- to be added -->
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#caro-n1" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#caro-n1" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- /. tab contents -->
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.Page Content -->
+
+
+<!-- Footer -->
+<footer>
+    <div class="socializer">
+        <a><i class="fa fa-facebook-square fa-3x sns" aria-hidden="true" name="facebook"></i></a>
+        <a><i class="fa fa-google-plus-square fa-3x sns" aria-hidden="true" name="google"></i></a>
+        <a><i class="fa fa-twitter-square fa-3x sns" aria-hidden="true" name="twitter"></i></a>
+        <a><i class="fa fa-linkedin-square fa-3x sns" aria-hidden="true" name="linkedin"></i></a>
+        <a><i class="fa fa-pinterest-square fa-3x sns" aria-hidden="true" name="pinterest"></i></a>
+        <a><img class="sns" src="/img/social-line.png" name="line"></a>
+    </div>
+</footer>
+<!-- /Footer -->
+
+
+<!-- Modal Config -->
+<div class="modal fade " id="modal-config" role="dialog">
+    <div class="modal-dialog modal-sm">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" i18n="word.config.play"></h4>
+            </div>
+            <div class="modal-body">
+                <div class="config-day">
+                    <div>
+                        <span i18n="word.config.dayAmount"></span>
+                        <span class="config-cnt" id="group-cnt"></span>
+                        <span i18n="word.config.count"></span>
+                    </div>
+                    <br>
+                    <input id="slider-day" class="slider" type="text"/>
+                    <br>
+                </div>
+                <hr>
+                <div id="radio-play-type" class="btn-group">
+                    <a class="btn btn-primary btn-sm notActive" data-toggle="play-first" data-title="all" i18n="word.config.seeAll"></a>
+                    <a class="btn btn-primary btn-sm active" data-toggle="play-first" data-title="word" i18n="word.config.hideMean"></a>
+                    <a class="btn btn-primary btn-sm notActive" data-toggle="play-first" data-title="mean" i18n="word.config.hideWord"></a>
+                </div>
+                <br><br>
+                <div class="config-display">
+                    <div class="config-period">
+                        <span i18n="word.config.hideTime"></span>
+                        <span class="config-cnt" id="hide-time"></span>
+                        <span i18n="comm.sec"></span>
+                        <span> &nbsp&nbsp/&nbsp&nbsp </span>
+                        <span i18n="word.config.slideTime"></span>
+                        <span class="config-cnt" id="slide-period"></span>
+                        <span i18n="comm.sec"></span>
+                    </div>
+
+                    <br>
+                    <input id="slider-display" class="slider slider-bl" type="text"/>
+                    <br>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button id="btn-config" type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- /Modal Config -->
+
+<!-- Modal List -->
+<div class="modal fade " id="modal-list" role="dialog">
+    <div class="modal-dialog modal-md">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title"><span i18n="comm.allList"></span><span>&nbsp-&nbsp</span><span class="list-day"></span></h4>
+            </div>
+            <div class="modal-body day-list">
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th><span i18n="comm.word"></span></th>
+                        <th><span i18n="comm.mean"></span></th>
+                    </tr>
+                    </thead>
+                    <tbody class="day-list-body">
+                    <!--to be added-->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- /Modal List -->
+
+
+<!--handlerbars template-->
+<script id="entry-template" type="text/x-handlebars-template">
+    <div class="item word-pane">
+        <!--<audio class="tts" type="audio/mp3" src=""></audio>-->
+        <div id="tts-jPlayer" class="jp-jplayer"></div>
+
+        <!--word-->
+        <div class="area_word">
+            <p class="idx">({{idx}}/
+                <sapn id="grpCnt">{{grpCnt}}</sapn>
+                <span>)</span></p>
+            <p class="no" style="display: none">{{no}}</p>
+            <p class="word">{{word}}</p>
+            <p class="word-pron">{{pron}}<button type="button" class="btn btn-default tts"><i class="fa fa-volume-up" aria-hidden="true"></i></button></p>
+
+        </div>
+        <!--Mean-->
+        <div class="area-mean">
+            <p class="cen_txt">
+                <span class="word-mean">{{mean}}</span>
+            </p>
+        </div>
+        </br>
+        <!--Example-->
+        {{#if ex-word}}
+        <div class="area-mean area-ex">
+            <p class="ex-word">{{ex-word}}</p>
+            <p class="ex-mean">{{ex-mean}}</p>
+        </div>
+        {{/if}}
+    </div>
+</script>
+
+<script id="day-list-template" type="text/x-handlebars-template">
+    <tr>
+        <td style="width: 50%">{{word}} {{#if pron}}({{pron}}){{/if}}</td>
+        <td style="width: 50%">{{mean}}</td>
+    </tr>
+</script>
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/bootstrap-slider.min.js"></script>
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.0.0/sweetalert2.min.js"></script>
+<script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+
+
+
+<!-- Custom defined .js -->
+<script src="vendor/jquery/jquery.session.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="/js/common/custom.min.js"></script>
+<script src="/js/common/service.js"></script>
+<script src="/js/common/common.js"></script>
+
+
+<script type="text/javascript">
+
+    var LANG = $.session.get("lang");
+    var IS_PLAYING = false;
+    var AUTO_PLAY_HANDLER;
+    var SHOW_NEXT_HANDLER;
+    var LEVEL = 5;
+    var LEVEL_WORD_TOTAL = 0;
+    var LEVEL_WORD_LIST = [];
+    var GROUP_WORD_LIST = [];
+    var GROUP_COUNT = 20;
+    var GROUP_COUNT_CHANGED = 20;
+    var SLIDE_PERIOD = 6 * 1000;
+    var FIRST_PERIOD = 3 * 1000;
+    var SECOND_PERIOD = 3 * 1000;
+    var FIRST_DISPLAY = "word";
+    var TTS_ON = true;
+
+
+    $(document).ready(init);
+
+
+    function init() {
+        setLanguage();
+        comm.setI18nMessage(LANG);
+        comm.applyI18n("#contents");
+        getLevelWords();
+    }
+
+    function setLanguage() {
+        if (!LANG) {
+            var browserLang = $.cookie('browser_lang');
+            if (browserLang) {
+                $.session.set("lang", browserLang);
+                LANG = browserLang;
+            } else {
+                $.session.set("lang", "en");
+                LANG = "en";
+            }
+        }
+    }
+    $('.drop-language li a').on('click', function () {
+        var lang = $(this).attr("value");
+        $.session.set("lang", lang);
+        LANG = lang;
+        comm.setI18nMessage(lang);
+        comm.applyI18n("#contents");
+        getLevelWords();
+        $('.navbar-toggle').click();
+    });
+
+    function getLevelWords() {
+        var params = {};
+        params["level"] = LEVEL;
+        params["lang"] = LANG;
+        function successHandler(resultData) {
+            //alert(JSON.stringify(resultData))
+            LEVEL_WORD_TOTAL = resultData.length;
+            LEVEL_WORD_LIST = resultData;
+            setDayOptions();
+            getGroupWords();
+            setWordEntrys();
+        }
+
+        service.getWordByLevel(params, successHandler);
+
+    }
+
+    function getGroupWords() {
+        var day = parseInt($("#select-day").val());
+        //* when selectpicket is not set yet. initial entering
+        if (!day) {
+            day = 1;
+        }
+
+        var wordList = [];
+        var startIdx = day * GROUP_COUNT - GROUP_COUNT;
+        var endIdx = day * GROUP_COUNT;
+        var totalCnt = LEVEL_WORD_LIST.length;
+
+        if (endIdx >= totalCnt) {
+            endIdx = totalCnt;
+        }
+        for (var i = startIdx; i < endIdx; i++) {
+            wordList.push(LEVEL_WORD_LIST[i])
+        }
+        GROUP_WORD_LIST = wordList;
+    }
+
+    function setDayOptions() {
+        var totalCnt = LEVEL_WORD_LIST.length;
+        var dayCnt = totalCnt / GROUP_COUNT;
+        var mod = totalCnt % GROUP_COUNT;
+        if (mod) {
+            dayCnt = parseInt(dayCnt + 1);
+        }
+        $(".select-day").remove();
+        var $select = $('<select/>', {
+            'id': 'select-day',
+            'class': 'selectpicker select-day',
+            'data-width': 'fit'
+        });
+        for (var i = 0; i < dayCnt; i++) {
+            var optTag = "<option value=" + (i + 1) + ">Day " + (i + 1) + "</option>";
+            $select.append(optTag)
+        }
+        $select.prependTo(".play-ctr").first().selectpicker('refresh');
+        SetDayChangeHandler();
+    }
+
+    function SetDayChangeHandler() {
+        $(".select-day").click(function () {
+            $("#btn-stop-auto").trigger("click");
+        });
+        $("#select-day").change(function () {
+            getGroupWords();
+            setWordEntrys();
+        });
+    }
+
+
+    function setWordEntrys() {
+        var source = $("#entry-template").html();
+        var template = Handlebars.compile(source);
+        var selector = "#tab-n" + LEVEL + " .carousel-inner";
+        $(selector).empty();
+        $.each(GROUP_WORD_LIST, function (i, data) {
+            data["idx"] = i + 1;
+            data["grpCnt"] = GROUP_COUNT;
+            var html = template(data);
+            $(selector).append(html);
+        });
+        $(selector + " .item:first").addClass("active");
+        setItemClickEvt();
+        setFirstDisplay();
+    }
+
+
+    function setItemClickEvt() {
+        $(".word-pane").click(function () {
+            var wordOff = $(this).find(".word").hasClass("display-off");
+            var meanOff = $(this).find(".area-mean").hasClass("display-off");
+
+            if (!wordOff && !meanOff) {
+                if (FIRST_DISPLAY == "word") {
+                    $(".area-mean").addClass("display-off");
+                } else {
+                    $(".word").addClass("display-off");
+                    $(".word-pron").addClass("display-off");
+                    $(".ex-word").addClass("display-off");
+                }
+            } else {
+                if (wordOff) {
+                    $(".word").removeClass("display-off");
+                    $(".word-pron").removeClass("display-off");
+                    $(".ex-word").removeClass("display-off");
+                } else {
+                    $(".area-mean").removeClass("display-off");
+                }
+            }
+        });
+        $(".tts").click(function(e) {
+            e.stopPropagation();
+            var isApple = (/((iphone)|(ipad)|(ipod))/i.test(navigator.userAgent.toLowerCase()));
+            if(isApple){
+                comm.swal('warning', 'word.tts.alert');
+            } else {
+                playTTS();
+            }
+
+        })
+    }
+
+
+    /** Auto play */
+    function startAutoPlay() {
+        clearInterval(AUTO_PLAY_HANDLER);
+        clearInterval(SHOW_NEXT_HANDLER);
+        AUTO_PLAY_HANDLER = setInterval(function () {
+            $("#tab-n" + LEVEL + " .right").trigger("click");
+            if (FIRST_DISPLAY != "all") {
+                showNext();
+            }
+        }, SLIDE_PERIOD);
+        showNext();
+    }
+
+    function showNext() {
+        SHOW_NEXT_HANDLER = setTimeout(function () {
+            if (FIRST_DISPLAY == "word") {
+                $(".area-mean").removeClass("display-off");
+            } else {
+                $(".word").removeClass("display-off");
+                $(".word-pron").removeClass("display-off");
+                $(".ex-word").removeClass("display-off");
+            }
+        }, FIRST_PERIOD);
+    }
+
+
+    /****************
+     * EventHandler *
+     ****************/
+
+    $('.word-tab a[data-toggle="tab"]').on('shown.bs.tab', function () {
+        $("#btn-stop-auto").trigger("click");
+        LEVEL = $(this).text().replace(/[^0-9]/g, "");
+        getLevelWords();
+        setDayOptions();
+        setFirstDisplay();
+    });
+
+    $("#btn-start-auto").click(function () {
+        $(this).addClass("element-off");
+        $("#btn-stop-auto").removeClass("element-off");
+        startAutoPlay();
+        IS_PLAYING = true;
+        $('body').scrollTo('.tab-content', 600);
+    });
+
+    $("#btn-stop-auto").click(function () {
+        $(this).addClass("element-off");
+        $("#btn-start-auto").removeClass("element-off");
+        clearInterval(AUTO_PLAY_HANDLER);
+        clearInterval(SHOW_NEXT_HANDLER);
+        IS_PLAYING = false;
+        $('body').scrollTo(0, 600);
+    });
+
+    $('.carousel').bind('slide.bs.carousel', function (e) {
+        setFirstDisplay();
+    });
+    function playTTS(){
+        var text = $("#tab-n" + LEVEL + " .carousel-inner .active .word-pron").text();
+        responsiveVoice.speak(text, "Japanese Female");
+    }
+
+
+
+
+    /** footer show&hide */
+    var iScrollPos = 0;
+    $(window).scroll(function () {
+        var iCurScrollPos = $(this).scrollTop();
+        var diff = Math.abs(iCurScrollPos - iScrollPos);
+        if (diff > 10) {
+            if (iCurScrollPos > iScrollPos) {
+                //** Scrolling down
+                $('footer').slideUp(600);
+            } else {
+                //** Scrolling up
+                $('footer').slideDown(600);
+            }
+            iScrollPos = iCurScrollPos;
+        }
+    });
+
+
+    /******************
+     * Modal Day List *
+     ******************/
+    $("#day-list").on("click", function () {
+        var day = $("#select-day").val();
+        $(".list-day").text("Day" + day);
+        setDayAllList();
+    });
+
+    function setDayAllList() {
+        var source = $("#day-list-template").html();
+        var template = Handlebars.compile(source);
+        var selector = ".day-list-body";
+        $(selector).empty();
+        $.each(GROUP_WORD_LIST, function (i, data) {
+            var html = template(data);
+            $(selector).append(html);
+        });
+    }
+
+
+    /****************
+     * Modal Config *
+     ****************/
+    function setFirstDisplay() {
+        if (FIRST_DISPLAY == "word") {
+            $(".area-mean").addClass("display-off");
+            $(".word").removeClass("display-off");
+            $(".word-pron").removeClass("display-off");
+            $(".ex-word").removeClass("display-off");
+        } else if (FIRST_DISPLAY == "mean") {
+            $(".area-mean").removeClass("display-off");
+            $(".word").addClass("display-off");
+            $(".word-pron").addClass("display-off");
+            $(".ex-word").addClass("display-off");
+        } else {
+            //** see all
+            $(".area-mean").removeClass("display-off");
+            $(".word").removeClass("display-off");
+            $(".word-pron").removeClass("display-off");
+            $(".ex-word").removeClass("display-off");
+        }
+    }
+
+
+    $('#radio-play-type a').on('click', function () {
+        var title = $(this).data('title');
+        var toggle = $(this).data('toggle');
+        $('a[data-toggle="' + toggle + '"]').not('[data-title="' + title + '"]').removeClass('active').addClass('notActive');
+        $('a[data-toggle="' + toggle + '"][data-title="' + title + '"]').removeClass('notActive').addClass('active');
+        FIRST_DISPLAY = title;
+    });
+
+
+    //** modal config, select-slider
+    $("#btn-config").on("click", function () {
+        if (GROUP_COUNT != GROUP_COUNT_CHANGED) {
+            GROUP_COUNT = GROUP_COUNT_CHANGED;
+            setDayOptions();
+            getGroupWords();
+            setWordEntrys()
+        }
+    });
+
+    $("#modal-config").on("hidden.bs.modal", function () {
+        //$("#btn-start-auto").trigger("click");
+        setFirstDisplay();
+    });
+
+    $("#config").click(function () {
+        $("#btn-stop-auto").trigger("click");
+        $("#slide-period").text(SLIDE_PERIOD / 1000);
+        $("#hide-time").text(FIRST_PERIOD / 1000);
+        $("#mean-period").text(SECOND_PERIOD / 1000);
+        $("#group-cnt").text(GROUP_COUNT);
+        FIRST_DISPLAY = $("#radio-play-type .active").data("title");
+    });
+
+
+    $('#slider-day').slider({
+        min: 10,
+        max: 100,
+        step: 10,
+        value: 20,
+        formatter: function (value) {
+            return value;
+        }
+    });
+    $("#slider-day").on("slideStop", function (e) {
+        $("#group-cnt").text(e.value);
+        GROUP_COUNT_CHANGED = e.value;
+    });
+
+
+    $("#slider-display").slider({
+        min: 1,
+        max: 10,
+        value: [3, 6],
+        step: 1,
+        formatter: function (value) {
+            return value[0] + " / " + value[1];
+        }
+    });
+    $("#slider-display").on("slideStop", function (e) {
+        if (checkSameValue(e)) {
+            FIRST_PERIOD = e.value[0] * 1000;
+            SLIDE_PERIOD = e.value[1] * 1000;
+            SECOND_PERIOD = SLIDE_PERIOD - FIRST_PERIOD;
+
+            $("#hide-time").text(FIRST_PERIOD / 1000);
+            $("#slide-period").text(SLIDE_PERIOD / 1000);
+        } else {
+            $("#slider-display").slider('setValue', [3, 6]);
+            comm.swal('warning', 'comm.sameValue');
+        }
+
+    });
+    function checkSameValue(e) {
+        var isNotSame = true;
+        if (e.value[0] == e.value[1]) {
+            isNotSame = false;
+        }
+        return isNotSame;
+
+    }
+
+
+</script>
+
+</body>
+</html>

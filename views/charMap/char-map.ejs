@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    히라가나/가타카나 암기 페이지
+-->
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108664644-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108664644-1');
+    </script>
+    <!-- /Global site tag (gtag.js) - Google Analytics -->
+    <!--Google add sense-->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9826976710647564",
+            enable_page_level_ads: true
+        });
+    </script>
+    <!--/Google add sense-->
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Open Study Japanese</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/css/bootstrap-slider.min.css">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/char-map.css" rel="stylesheet">
+
+
+
+
+</head>
+
+<body id="contents">
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/" i18n="index.title">Open Study Japanese</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/char" i18n="comm.character"></a></li>
+                <li><a href="/word" i18n="comm.word"></a></li>
+                <li><a href="/kanji" i18n="comm.kanji"></a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/about" i18n="index.about"></a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle"
+                       data-toggle="dropdown"
+                       href="#">
+                        <i class="fa fa-globe fa-lg" aria-hidden="true"></i>
+                        <span i18n="comm.language"></span>
+                    </a>
+
+                    <ul class="dropdown-menu drop-language">
+                        <li><a tabindex="-1" value="en">English</a></li>
+                        <li><a tabindex="-1" value="ko">Korean</a></li>
+                    </ul>
+                </li>
+                <!--<li><a href="#" i18n="index.login">Static top</a></li>-->
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<!-- Navigation End-->
+
+
+<!-- Page Content -->
+<section class="content-section">
+    <div class="container">
+        <!--<h2 i18n="char.title"></h2>-->
+        <p></p>
+        <ul class="nav nav-tabs">
+            <li class="char-tab active"><a data-toggle="tab" href="#hira-tab" i18n="char.hiragana"></a></li>
+            <li class="char-tab"><a data-toggle="tab" href="#gata-tab" i18n="char.gatakana"></a></li>
+            <li class="char-test" id="nav-tab-test"><a data-toggle="tab" href="#test-tab" i18n="char.test"></a></li>
+        </ul>
+
+
+        <div class="tab-content">
+            <div class="switch-bar">
+                <label>
+                    <input class="switch" id="pron" type="checkbox" checked data-toggle="toggle" data-width="50" data-size="mini">
+                    <label i18n="char.pron"></label>
+                </label>
+
+                <label>
+                    <input class="switch" id="tak" type="checkbox" data-toggle="toggle" data-width="50" data-size="mini">
+                    <label i18n="char.tak"></label>
+                </label>
+                <label>
+                    <input class="switch" id="yo" type="checkbox" data-toggle="toggle" data-width="50" data-size="mini">
+                    <label i18n="char.yo"></label>
+                </label>
+            </div>
+
+
+
+            <div id="hira-tab" class="tab-pane fade in active char-tab">
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td><p class="char">あ</p><sub class="pron">a</sub></td>
+                        <td><p class="char">い</p><sub class="pron">i</sub></td>
+                        <td><p class="char">う</p><sub class="pron">u</sub></td>
+                        <td><p class="char">え</p><sub class="pron">e</sub></td>
+                        <td><p class="char">お</p><sub class="pron">o</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">か</p><sub class="pron">ka</sub></td>
+                        <td><p class="char">き</p><sub class="pron">ki</sub></td>
+                        <td><p class="char">く</p><sub class="pron">ku</sub></td>
+                        <td><p class="char">け</p><sub class="pron">ke</sub></td>
+                        <td><p class="char">こ</p><sub class="pron">ko</sub></td>
+                        <td class="yo"><p class="char">きゃ</p><sub class="pron">kya</sub></td>
+                        <td class="yo"><p class="char">きゅ</p><sub class="pron">kyu</sub></td>
+                        <td class="yo"><p class="char">きょ</p><sub class="pron">kyo</sub></td>
+                    </tr>
+                    <tr class="tak">
+                        <td><p class="char">が</p><sub class="pron">ga</sub></td>
+                        <td><p class="char">ぎ</p><sub class="pron">gi</sub></td>
+                        <td><p class="char">ぐ</p><sub class="pron">gu</sub></td>
+                        <td><p class="char">げ</p><sub class="pron">ge</sub></td>
+                        <td><p class="char">ご</p><sub class="pron">go</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">さ</p><sub class="pron">sa</sub></td>
+                        <td><p class="char">し</p><sub class="pron">si</sub></td>
+                        <td><p class="char">す</p><sub class="pron">su</sub></td>
+                        <td><p class="char">せ</p><sub class="pron">se</sub></td>
+                        <td><p class="char">そ</p><sub class="pron">so</sub></td>
+                        <td class="yo"><p class="char">しゃ</p><sub class="pron">sha</sub></td>
+                        <td class="yo"><p class="char">しゅ</p><sub class="pron">shu</sub></td>
+                        <td class="yo"><p class="char">しょ</p><sub class="pron">sho</sub></td>
+                    </tr>
+                    <tr class="tak">
+                        <td><p class="char">ざ</p><sub class="pron">za</sub></td>
+                        <td><p class="char">じ</p><sub class="pron">ji</sub></td>
+                        <td><p class="char">ず</p><sub class="pron">zu</sub></td>
+                        <td><p class="char">ぜ</p><sub class="pron">ze</sub></td>
+                        <td><p class="char">ぞ</p><sub class="pron">zo</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">た</p><sub class="pron">ta</sub></td>
+                        <td><p class="char">ち</p><sub class="pron">chi</sub></td>
+                        <td><p class="char">つ</p><sub class="pron">tsu</sub></td>
+                        <td><p class="char">て</p><sub class="pron">te</sub></td>
+                        <td><p class="char">と</p><sub class="pron">to</sub></td>
+                        <td class="yo"><p class="char">ちゃ</p><sub class="pron">cha</sub></td>
+                        <td class="yo"><p class="char">ちゅ</p><sub class="pron">chu</sub></td>
+                        <td class="yo"><p class="char">ちょ</p><sub class="pron">cho</sub></td>
+
+                    </tr>
+                    <tr class="tak">
+                        <td><p class="char">だ</p><sub class="pron">da</sub></td>
+                        <td><p class="char">ぢ</p><sub class="pron">ji</sub></td>
+                        <td><p class="char">づ</p><sub class="pron">zu</sub></td>
+                        <td><p class="char">で</p><sub class="pron">de</sub></td>
+                        <td><p class="char">ど</p><sub class="pron">do</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">な</p><sub class="pron">na</sub></td>
+                        <td><p class="char">に</p><sub class="pron">ni</sub></td>
+                        <td><p class="char">ぬ</p><sub class="pron">nu</sub></td>
+                        <td><p class="char">ね</p><sub class="pron">ne</sub></td>
+                        <td><p class="char">の</p><sub class="pron">no</sub></td>
+                        <td class="yo"><p class="char">にゃ</p><sub class="pron">nya</sub></td>
+                        <td class="yo"><p class="char">にゅ</p><sub class="pron">nyu</sub></td>
+                        <td class="yo"><p class="char">にょ</p><sub class="pron">nyo</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">は</p><sub class="pron">ha</sub></td>
+                        <td><p class="char">ひ</p><sub class="pron">hi</sub></td>
+                        <td><p class="char">ふ</p><sub class="pron">fu</sub></td>
+                        <td><p class="char">へ</p><sub class="pron">he</sub></td>
+                        <td><p class="char">ほ</p><sub class="pron">ho</sub></td>
+                        <td class="yo"><p class="char">ひゃ</p><sub class="pron">hyo</sub></td>
+                        <td class="yo"><p class="char">ひゅ</p><sub class="pron">hyo</sub></td>
+                        <td class="yo"><p class="char">ひょ</p><sub class="pron">hyo</sub></td>
+                    </tr>
+                    <tr class="tak">
+                        <td><p class="char">ば</p><sub class="pron">ba</sub></td>
+                        <td><p class="char">び</p><sub class="pron">bi</sub></td>
+                        <td><p class="char">ぶ</p><sub class="pron">bu</sub></td>
+                        <td><p class="char">べ</p><sub class="pron">be</sub></td>
+                        <td><p class="char">ぼ</p><sub class="pron">bo</sub></td>
+                    </tr>
+                    <tr class="tak">
+                        <td><p class="char">ぱ</p><sub class="pron">pa</sub></td>
+                        <td><p class="char">ぴ</p><sub class="pron">pi</sub></td>
+                        <td><p class="char">ぷ</p><sub class="pron">pu</sub></td>
+                        <td><p class="char">ぺ</p><sub class="pron">pe</sub></td>
+                        <td><p class="char">ぽ</p><sub class="pron">po</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">ま</p><sub class="pron">ma</sub></td>
+                        <td><p class="char">み</p><sub class="pron">mi</sub></td>
+                        <td><p class="char">む</p><sub class="pron">mu</sub></td>
+                        <td><p class="char">め</p><sub class="pron">me</sub></td>
+                        <td><p class="char">も</p><sub class="pron">mo</sub></td>
+                        <td class="yo"><p class="char">みゃ</p><sub class="pron">mya</sub></td>
+                        <td class="yo"><p class="char">みゅ</p><sub class="pron">myu</sub></td>
+                        <td class="yo"><p class="char">みょ</p><sub class="pron">myo</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">や</p><sub class="pron">ya</sub></td>
+                        <td><p class="char"></p><sub class="pron"></sub></td>
+                        <td><p class="char">ゆ</p><sub class="pron">yu</sub></td>
+                        <td><p class="char"></p><sub class="pron"></sub></td>
+                        <td><p class="char">よ</p><sub class="pron">yo</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">ら</p><sub class="pron">ra</sub></td>
+                        <td><p class="char">り</p><sub class="pron">ri</sub></td>
+                        <td><p class="char">る</p><sub class="pron">ru</sub></td>
+                        <td><p class="char">れ</p><sub class="pron">re</sub></td>
+                        <td><p class="char">ろ</p><sub class="pron">ro</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">わ</p><sub class="pron">wa</sub></td>
+                        <td><p class="char"></p><sub class="pron"></sub></td>
+                        <td><p class="char"></p><sub class="pron"></sub></td>
+                        <td><p class="char"></p><sub class="pron"></sub></td>
+                        <td><p class="char">を</p><sub class="pron">wo</sub></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><p class="char">ん</p><sub class="pron">nn</sub></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+
+            <div id="gata-tab" class="tab-pane fade char-tab">
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td><p class="char">ア</p><sub class="pron">a</sub></td>
+                        <td><p class="char">イ</p><sub class="pron">i</sub></td>
+                        <td><p class="char">ウ</p><sub class="pron">u</sub></td>
+                        <td><p class="char">エ</p><sub class="pron">e</sub></td>
+                        <td><p class="char">オ</p><sub class="pron">o</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">カ</p><sub class="pron">ka</sub></td>
+                        <td><p class="char">キ</p><sub class="pron">ki</sub></td>
+                        <td><p class="char">ク</p><sub class="pron">ku</sub></td>
+                        <td><p class="char">ケ</p><sub class="pron">ke</sub></td>
+                        <td><p class="char">コ</p><sub class="pron">ko</sub></td>
+                        <td class="yo"><p class="char">キャ</p><sub class="pron">kya</sub></td>
+                        <td class="yo"><p class="char">キュ</p><sub class="pron">kyu</sub></td>
+                        <td class="yo"><p class="char">キョ</p><sub class="pron">kyo</sub></td>
+                    </tr>
+                    <tr class="tak">
+                        <td><p class="char">ガ</p><sub class="pron">ga</sub></td>
+                        <td><p class="char">ギ</p><sub class="pron">gi</sub></td>
+                        <td><p class="char">グ</p><sub class="pron">gu</sub></td>
+                        <td><p class="char">ゲ</p><sub class="pron">ge</sub></td>
+                        <td><p class="char">ゴ</p><sub class="pron">go</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">サ</p><sub class="pron">sa</sub></td>
+                        <td><p class="char">シ</p><sub class="pron">si</sub></td>
+                        <td><p class="char">ス</p><sub class="pron">su</sub></td>
+                        <td><p class="char">セ</p><sub class="pron">se</sub></td>
+                        <td><p class="char">ソ</p><sub class="pron">so</sub></td>
+                        <td class="yo"><p class="char">シャ</p><sub class="pron">sha</sub></td>
+                        <td class="yo"><p class="char">シュ</p><sub class="pron">shu</sub></td>
+                        <td class="yo"><p class="char">ショ</p><sub class="pron">sho</sub></td>
+                    </tr>
+                    <tr class="tak">
+                        <td><p class="char">ザ</p><sub class="pron">za</sub></td>
+                        <td><p class="char">ジ</p><sub class="pron">ji</sub></td>
+                        <td><p class="char">ズ</p><sub class="pron">zu</sub></td>
+                        <td><p class="char">ゼ</p><sub class="pron">ze</sub></td>
+                        <td><p class="char">ゾ</p><sub class="pron">zo</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">タ</p><sub class="pron">ta</sub></td>
+                        <td><p class="char">チ</p><sub class="pron">chi</sub></td>
+                        <td><p class="char">ツ</p><sub class="pron">tsu</sub></td>
+                        <td><p class="char">テ</p><sub class="pron">te</sub></td>
+                        <td><p class="char">ト</p><sub class="pron">to</sub></td>
+                        <td class="yo"><p class="char">チャ</p><sub class="pron">cha</sub></td>
+                        <td class="yo"><p class="char">チュ</p><sub class="pron">chu</sub></td>
+                        <td class="yo"><p class="char">チョ</p><sub class="pron">cho</sub></td>
+                    </tr>
+                    <tr class="tak">
+                        <td><p class="char">ダ</p><sub class="pron">da</sub></td>
+                        <td><p class="char">ヂ</p><sub class="pron">ji</sub></td>
+                        <td><p class="char">ヅ</p><sub class="pron">zu</sub></td>
+                        <td><p class="char">デ</p><sub class="pron">de</sub></td>
+                        <td><p class="char">ド</p><sub class="pron">do</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">ナ</p><sub class="pron">na</sub></td>
+                        <td><p class="char">ニ</p><sub class="pron">ni</sub></td>
+                        <td><p class="char">ヌ</p><sub class="pron">nu</sub></td>
+                        <td><p class="char">ネ</p><sub class="pron">ne</sub></td>
+                        <td><p class="char">ノ</p><sub class="pron">no</sub></td>
+                        <td class="yo"><p class="char">ニャ</p><sub class="pron">nya</sub></td>
+                        <td class="yo"><p class="char">ニュ</p><sub class="pron">nyu</sub></td>
+                        <td class="yo"><p class="char">ニョ</p><sub class="pron">nyo</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">ハ</p><sub class="pron">ha</sub></td>
+                        <td><p class="char">ヒ</p><sub class="pron">hi</sub></td>
+                        <td><p class="char">フ</p><sub class="pron">fu</sub></td>
+                        <td><p class="char">ヘ</p><sub class="pron">he</sub></td>
+                        <td><p class="char">ホ</p><sub class="pron">ho</sub></td>
+                        <td class="yo"><p class="char">ヒャ</p><sub class="pron">hya</sub></td>
+                        <td class="yo"><p class="char">ヒュ</p><sub class="pron">hyu</sub></td>
+                        <td class="yo"><p class="char">ヒョ</p><sub class="pron">hyo</sub></td>
+                    </tr>
+                    <tr class="tak">
+                        <td><p class="char">バ</p><sub class="pron">ba</sub></td>
+                        <td><p class="char">ビ</p><sub class="pron">bi</sub></td>
+                        <td><p class="char">ブ</p><sub class="pron">bu</sub></td>
+                        <td><p class="char">ベ</p><sub class="pron">be</sub></td>
+                        <td><p class="char">ボ</p><sub class="pron">bo</sub></td>
+                    </tr>
+                    <tr class="tak">
+                        <td><p class="char">パ</p><sub class="pron">pa</sub></td>
+                        <td><p class="char">ピ</p><sub class="pron">pi</sub></td>
+                        <td><p class="char">プ</p><sub class="pron">pu</sub></td>
+                        <td><p class="char">ペ</p><sub class="pron">pe</sub></td>
+                        <td><p class="char">ポ</p><sub class="pron">po</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">マ</p><sub class="pron">ma</sub></td>
+                        <td><p class="char">ミ</p><sub class="pron">mi</sub></td>
+                        <td><p class="char">ム</p><sub class="pron">mu</sub></td>
+                        <td><p class="char">メ</p><sub class="pron">me</sub></td>
+                        <td><p class="char">モ</p><sub class="pron">mo</sub></td>
+                        <td class="yo"><p class="char">ミャ</p><sub class="pron">mya</sub></td>
+                        <td class="yo"><p class="char">ミュ</p><sub class="pron">myu</sub></td>
+                        <td class="yo"><p class="char">ミョ</p><sub class="pron">myo</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">ヤ</p><sub class="pron">ya</sub></td>
+                        <td><p class="char"></p><sub class="pron"></sub></td>
+                        <td><p class="char">ユ</p><sub class="pron">yu</sub></td>
+                        <td><p class="char"></p><sub class="pron"></sub></td>
+                        <td><p class="char">ヨ</p><sub class="pron">yo</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">ラ</p><sub class="pron">ra</sub></td>
+                        <td><p class="char">リ</p><sub class="pron">ri</sub></td>
+                        <td><p class="char">ル</p><sub class="pron">ru</sub></td>
+                        <td><p class="char">レ</p><sub class="pron">re</sub></td>
+                        <td><p class="char">ロ</p><sub class="pron">ro</sub></td>
+                    </tr>
+                    <tr>
+                        <td><p class="char">ワ</p><sub class="pron">wa</sub></td>
+                        <td><p class="char"></p><sub class="pron"></sub></td>
+                        <td><p class="char"></p><sub class="pron"></sub></td>
+                        <td><p class="char"></p><sub class="pron"></sub></td>
+                        <td><p class="char">ヲ</p><sub class="pron">wo</sub></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><p class="char">ン</p><sub class="pron">nn</sub></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div id="test-tab" class="tab-pane fade">
+                <div class="controller">
+                    <div class="radio-char radio-group btn-group">
+                        <button id="btn-hira" type="button" class="btn btn-primary" value="hira" i18n="char.hiragana"></button>
+                        <button id="btn-gata" type="button" class="btn btn-primary" value="gata" i18n="char.gatakana"></button>
+                    </div>
+                    <div class="play-ctr">
+                        <button type="button" id="btn-start-auto" class="btn btn-success btn-auto ">
+                            <i class="fa fa-magic fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <button type="button" id="btn-stop-auto" class="btn btn-danger btn-auto element-off">
+                            <i class="fa fa-stop" aria-hidden="true"></i>
+                        </button>
+                        <i id="config"class="fa fa-cog fa-2x"aria-hidden="true" data-toggle="modal" data-target="#modal-config"></i>
+                    </div>
+                </div>
+
+                <div class="grid-test">
+                    <!--to be added -->
+                </div>
+
+                <!--<div class="msg-box-config">-->
+                    <!--<i class="fa fa-check-circle-o" aria-hidden="true"></i>&nbsp;<span i18n="test.guideMsg.manual"></span>-->
+                    <!--<br>-->
+                    <!--<i class="fa fa-check-circle-o" aria-hidden="true"></i>&nbsp;<span i18n="test.guideMsg.display"></span>-->
+                <!--</div>-->
+                <div class="box-bottom"></div>
+            </div>
+            <!--end-test-tab-->
+        </div>
+    </div>
+    <!-- /.container -->
+</section>
+<!-- /.content-section -->
+
+
+<!-- Footer -->
+<footer>
+    <div class="socializer">
+        <a><i class="fa fa-facebook-square fa-3x sns" aria-hidden="true" name="facebook"></i></a>
+        <a><i class="fa fa-google-plus-square fa-3x sns" aria-hidden="true" name="google"></i></a>
+        <a><i class="fa fa-twitter-square fa-3x sns" aria-hidden="true" name="twitter"></i></a>
+        <a><i class="fa fa-linkedin-square fa-3x sns" aria-hidden="true" name="linkedin"></i></a>
+        <a><i class="fa fa-pinterest-square fa-3x sns" aria-hidden="true" name="pinterest"></i></a>
+        <a><img class="sns" src="/img/social-line.png" name="line"></a>
+    </div>
+</footer>
+
+
+
+<!-- Modal -->
+<div class="modal fade " id="modal-config" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" i18n="word.config.play">재생 설정</h4>
+            </div>
+            <div class="modal-body">
+                <p i18n="word.config.word"></p>
+                <input class="slider" id="slider-char" type="text" data-slider-min="1" data-slider-max="10" data-slider-step="1" data-slider-value="2">
+                <span id="char-value"></span><span i18n="comm.sec"></span>
+                <br><br>
+                <p i18n="word.config.mean"></p>
+                <input class="slider" id="slider-pron" type="text"data-slider-min="1" data-slider-max="10" data-slider-step="1" data-slider-value="2">
+                <span id="pron-value"></span><span i18n="comm.sec"></span>
+                <br><br>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal End -->
+
+<!-- Bootstrap core JavaScript -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/bootstrap-slider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+
+
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/jquery/jquery.session.js"></script>
+
+<script src="/js/common/custom.min.js"></script>
+<script src="/js/common/service.js"></script>
+<script src="/js/common/common.js"></script>
+
+
+<script type="text/javascript">
+    var LANG = $.session.get("lang");
+    var HIRA = [];
+    var GATA = [];
+    var IS_PLAYING = false;
+    var INTERVAL_HANDLER;
+    var INTERVAL_HANDLER_NEXT;
+    var CHAR_TYPE = "hira";
+    var CHAR_TIME = 2*1000;
+    var PRON_TIME = 2*1000;
+    var CHAR_HISTORY = [];
+
+
+    $(document).ready(init);
+
+    function init() {
+        $('[data-toggle="tooltip"]').tooltip();
+        setLanguage();
+        comm.setI18nMessage(LANG);
+        comm.applyI18n("#contents");
+        setInitCharDisplay();
+        setSwitchHandler();
+        setCharMap();
+    }
+
+    function setLanguage(){
+        if(!LANG){
+            var browserLang =  $.cookie('browser_lang');
+            if(browserLang){
+                $.session.set("lang", browserLang);
+                LANG = browserLang;
+            } else {
+                $.session.set("lang", "en");
+                LANG = "en";
+            }
+        }
+
+    }
+    $('.drop-language li a').on('click', function(){
+        var lang = $(this).attr("value");
+        $.session.set("lang", lang);
+        comm.setI18nMessage(lang);
+        comm.applyI18n("#contents");
+        $('.navbar-toggle').click();
+    });
+
+    function setInitCharDisplay(){
+        $('.tak').hide();
+        $('.yo').hide();
+    }
+
+
+
+    /*****************
+     * 히라가나/가타카나 *
+     *****************/
+    function setSwitchHandler() {
+        $('.switch').change(function() {
+            var id = $(this).prop('id');
+            $('.' + id).toggle();
+        })
+    }
+
+    function setCharMap() {
+        var params = {};
+
+        function successHandler(result) {
+            //alert(JSON.stringify(resultData));
+            if (result) {
+                for (var i in result) {
+                    var charType = result[i]["char_type"];
+                    if ("hira" == charType) {
+                        HIRA.push(result[i]);
+                    } else if ("gata" == charType) {
+                        GATA.push(result[i]);
+                    }
+                }
+            } else {
+                comm.popMsg("login.login.isRegistered", "W");
+            }
+        }
+        service.getCharMap(params, successHandler);
+    }
+
+
+
+
+    /*********
+     * 테스트 *
+     *********/
+    function setTestChar(){
+        var showCnt = 1;
+        $(".grid-test").empty();
+        for(var i = 0; i < showCnt; i) {
+            if(CHAR_TYPE == "hira"){
+                shuffle(HIRA);
+                var cHira = HIRA[i]["char"];
+                var isExist = checkHistory(cHira);
+                if(!isExist){
+                    stackHistory(HIRA[i]["char"]);
+                    var appTag = "<div class='col-xs-12'><p class='t-char'>" + cHira + "</p><p class='t-sub'>" + HIRA[i]["char_pron"] + "</p></div>";
+                    i++;
+                }
+            } else {//* if(CHAR_TYPE == "gata")
+                shuffle(GATA);
+                var cGata = GATA[i]["char"];
+                var isExist = checkHistory(cGata);
+                if(!isExist){
+                    var appTag = "<div class='col-xs-12'><p class='t-char'>" + cGata + "</p><p class='t-sub'>" + GATA[i]["char_pron"] + "</p></div>";
+                    stackHistory(GATA[i]["char"]);
+                    i++;
+                }
+            }
+            $(".grid-test").append(appTag);
+        }
+        setTestSubToggleHandler();
+    }
+
+    function stackHistory(char){
+        //* manage hiragana, gatakana together here
+        var maxSize = 20;
+        var historySize = CHAR_HISTORY.length;
+
+        if(historySize < maxSize){
+            CHAR_HISTORY.push(char)
+        } else {
+            CHAR_HISTORY.shift();
+            CHAR_HISTORY.push(char)
+        }
+    }
+
+    function checkHistory(char){
+        var idx = $.inArray(char, CHAR_HISTORY);
+        return idx == -1 ? false : true;
+    }
+
+    function shuffle(arry) {
+        for (var i = arry.length - 1; i > 0; i--) {
+            var j = Math.floor(Math.random() * (i + 1));
+            var temp = arry[i];
+            arry[i] = arry[j];
+            arry[j] = temp;
+        }
+    }
+
+    function setTestSubToggleHandler() {
+        $(".grid-test div").click(function () {
+            var isShow = $(".t-sub").hasClass("sub-on");
+            if(isShow){
+                setTestChar();
+            } else {
+                $(".t-sub").addClass("sub-on");
+            }
+        })
+    }
+
+
+
+    function startAutoPlay() {
+        clearInterval(INTERVAL_HANDLER);
+        clearInterval(INTERVAL_HANDLER_NEXT);
+        setTestChar();
+        showTextSub();
+        INTERVAL_HANDLER = setInterval(function () {
+            setTestChar();
+            showTextSub();
+        }, CHAR_TIME + PRON_TIME);
+    }
+
+    function showTextSub() {
+        INTERVAL_HANDLER_NEXT = setTimeout(function(){
+            $(".t-sub").removeClass("sub-on");
+            $(".t-sub").addClass("sub-on");
+        }, CHAR_TIME);
+    }
+
+
+
+    /******************
+     * Event Handlers *
+     ******************/
+
+    $('.char-tab').click(function(){
+        $("#btn-stop-auto").trigger("click");
+        $('.switch-bar').show();
+    });
+
+    $('#nav-tab-test').click(function () {
+
+        $('.switch-bar').hide();
+        setTestChar();
+        $("#btn-"+CHAR_TYPE).trigger("click");
+    });
+
+    $("#btn-next").click(function(){
+        setTestChar();
+    });
+
+
+    $("#btn-start-auto").click(function(){
+        $(this).addClass("element-off");
+        $("#btn-stop-auto").removeClass("element-off");
+        //$(".selectpicker").attr("disabled", "disabled");
+        startAutoPlay();
+        IS_PLAYING = true;
+        $('body').scrollTo('.play-ctr', 600);
+    });
+
+    $("#btn-stop-auto").click(function(){
+        $(this).addClass("element-off");
+        $("#btn-start-auto").removeClass("element-off");
+        //$(".selectpicker").removeAttr("disabled");
+        clearInterval(INTERVAL_HANDLER);
+        clearInterval(INTERVAL_HANDLER_NEXT);
+        IS_PLAYING = false;
+        $('body').scrollTo(0, 600);
+    });
+
+    /** footer show&hide */
+    var iScrollPos = 0;
+    $(window).scroll(function () {
+        var iCurScrollPos = $(this).scrollTop();
+        var diff = Math.abs(iCurScrollPos - iScrollPos);
+        if(diff > 10){
+            if (iCurScrollPos > iScrollPos) {
+                //** Scrolling down
+                $('footer').slideUp(600);
+            } else {
+                //** Scrolling up
+                $('footer').slideDown(600);
+            }
+            iScrollPos = iCurScrollPos;
+        }
+    });
+
+
+    /** radio style */
+    $('.radio-char button').on('click', function(){
+        $(this).removeClass('not-active').siblings().removeClass("active").addClass('not-active');
+        CHAR_TYPE = $(this).attr("value");
+        setTestChar();
+    });
+
+
+
+
+    /** modal for configuration */
+    $("#modal-config").on("hidden.bs.modal", function () {
+        //$("#btn-start-auto").trigger("click");
+    });
+
+    $(".play-ctr i").click(function(){
+        $("#btn-stop-auto").trigger("click");
+        $("#slider-char").val(CHAR_TIME/1000);
+        $("#slider-pron").val(PRON_TIME/1000);
+        $("#char-value").text(CHAR_TIME/1000);
+        $("#pron-value").text(PRON_TIME/1000);
+    });
+
+    $('#slider-char').slider({
+        formatter: function(value) {
+            return value;
+        }
+    });
+    $("#slider-char").on("slideStop", function(e) {
+        $("#char-value").text(e.value);
+        CHAR_TIME = e.value * 1000;
+    });
+    $('#slider-pron').slider({
+        formatter: function(value) {
+            return value;
+        }
+    });
+    $("#slider-pron").on("slideStop", function(e) {
+        $("#pron-value").text(e.value);
+        PRON_TIME = e.value * 1000;
+    });
+
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+@charset "UTF-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* ---------- FONTAWESOME ---------- */
+/*[class*="fontawesome-"]:before {*/
+    /*font-family: 'FontAwesome', sans-serif;*/
+    /*opacity: 0.9;*/
+    /*margin-right: -30px;*/
+/*}*/
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+    opacity: 0.7;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+    opacity: 0.7;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: white;
+    opacity: 0.7;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: white;
+    opacity: 0.7;
+}
+
+body {
+    background: url(../img/squart_girl_dark_l.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto Medium', '맑은 고딕', 'FontAwesome', sans-serif, Arial;
+}
+
+input:focus {
+    color: white;
+    text-shadow: 0px 0px 0px white;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none !important;
+}
+
+.header {
+    margin-top: 70px;
+}
+
+.header img {
+    opacity: 0.9;
+}
+
+.header p {
+    color: white;
+    margin: 0;
+}
+
+.logo-text {
+    max-width: 80%;
+}
+
+.login div {
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+.login span {
+    opacity: 0.9;
+    color: white;
+    position: relative;
+    left:23px;
+}
+
+.login input {
+    position: relative;
+    right:13px;
+}
+
+
+.login-body{
+    visibility: hidden;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 330px;
+    text-align: center;
+    background-color: rgba(10, 10, 10, 0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+
+
+.container {
+    align: center;
+    margin: auto;
+    text-align: center;
+}
+
+.login input {
+    color: white;
+    font-size: 16px;
+    width: 270px;
+    border: none;
+    margin: auto;
+    padding: 10px 20px 10px 40px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, .1);
+}
+
+.login button {
+    opacity: 0.9;
+    color: white;
+    font-size: 16px;
+    width: 270px;
+    margin: auto;
+    margin-left: -12px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    background-color: #73879C;
+    /*background-color: #509F93;*/
+    /*background-color: #ea4c88;*/
+
+}
+
+.register {
+    padding: 0 0 20px 0;
+}
+
+.register p {
+    margin-left: -15px;
+}
+
+.register a {
+    color: ghostwhite;
+    opacity: 1;
+    font-size: 16px;
+    width: 270px;
+    margin: auto;
+}
+
+.hr {
+    height: 2px;
+    width: 270px;
+    margin: auto;
+    background: rgba(255, 255, 255, .3);
+}
+
+.auth-service img {
+    padding: 10px 20px 10px 20px;
+}
+
+.auth-service p {
+    opacity: 0.9;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.arrow {
+    margin: 10px 0 0 0;
+    opacity: 0.8;
+    color: gainsboro;
+}
+
+.copyright {
+    opacity: 0.9;
+    padding: 50px 0px 30px 0px;
+    color: white;
+}
+
+
+
+/* MODAL */
+.modal-content {
+    background: #F7F7F7;
+}
+
+.register_content {
+    margin: auto;
+    width: 90%;
+}
+.register_content div {
+    padding: 10px 0 0 0;
+}
+
+.register_content input {
+    color: darkslategrey;
+    height: 45px;
+    font-size: 16px;
+    /*border: none;*/
+    margin: auto;
+    padding: 10px 20px 10px 40px;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, .9);
+}
+.register_content input:focus {
+    color: darkslategrey;
+    text-shadow: 0px 0px 0px darkslategrey;
+    -webkit-text-fill-color: transparent;
+}

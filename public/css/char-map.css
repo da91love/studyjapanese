@@ -1,0 +1,348 @@
+/*!
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+.intro-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/intro-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.intro-message>h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-social-buttons i {
+  font-size: 80%;
+}
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message>h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
+
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.content-section-a {
+  padding: 50px 0;
+  background-color: #f8f8f8;
+}
+
+.content-section-b {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+
+
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+}
+
+@media(max-width:770px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/**********
+ * Custom *
+ **********/
+section .container{
+  margin-top: 70px;
+}
+
+.tab-pane {
+  padding: 30px 0 30px 0;
+}
+
+.table {
+  text-align: center;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.table td p {
+  margin-bottom: 0px;
+  font-size: large;
+}
+
+.switch-bar {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.switch-bar {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.switch-bar>label>label {
+  padding-left: 5px;
+  padding-right: 30px;
+}
+
+td[class='yo']  {
+  background-color: #f2f2f2
+}
+
+tr[class='tak']  {
+  background-color: #f2f2f2
+}
+
+
+.grid-test {
+  /*margin-top: 40px;*/
+  /*margin-bottom: 80px;*/
+  clear: both;
+}
+.t-char {
+  margin-top: 15px;
+  font-size: 8rem;
+  text-align: center;
+}
+.t-sub {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.control-panel{
+  text-align: center;
+  margin-top: 150px;
+}
+
+
+.guide-msg {
+  padding-bottom: 15px;
+  padding-left: 5px;
+}
+.guide-msg span{
+  padding-left: 5px;
+}
+
+.radio-char{
+  text-align: center;
+  clear: both;
+}
+
+.box-bottom {
+  height: 300px;
+}
+
+.element-off{
+  display:none;
+}
+
+.ctr-comp{
+  margin: 5px;
+}
+
+
+.t-sub {
+  color: white;
+}
+.sub-on{
+  color: black;
+}
+
+.msg-box-config {
+  border-radius: 25px;
+  border: 1px solid #3276b1;
+  padding: 20px;
+  margin: auto;
+  width: 60%;
+}
+
+.play-ctr {
+  text-align: center;
+  margin-right:auto;
+  padding-left: 5px;
+}
+.play-ctr button{
+  width: 39px;
+  padding: 6px 10px 6px 10px;
+}
+
+.fa-cog {
+  vertical-align: middle;
+  margin-left: 5px;
+  color: #777;
+}
+
+.tooltip-config {
+  /*background-color: #777;*/
+}
+
+.controller {
+  display: inline-flex;
+  text-align: center;
+  width: 100%;
+}
+
+
+.radio-char{
+  margin-left:auto;
+}
+
+
+#block-dialog{
+  height: 5px;
+}
+
+.modal-body input{
+
+}
+
+.slider {
+  margin-right: 10px;
+}
+
+.modal-body .slider-selection {
+  background: #3276b1 !important;
+}
+
+
+/*narrow-browser*/
+@media(max-width:770px) {
+
+}
+
+
+
+/*phone*/
+@media(max-width:450px) {
+  .grid-test {
+    /*margin-top: 20px;*/
+    /*margin-bottom: 50px;*/
+    clear: both;
+  }
+  .t-char {
+    margin-top: 15px;
+    font-size: 6rem;
+    text-align: center;
+  }
+  .t-sub {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .box-bottom {
+    height: 200px;
+  }
+}
+
+
+
+
+
+
+
+/*radio style*/
+.radio-group label {
+  overflow: hidden;
+}
+
+.radio-group input {
+  /* This is on purpose for accessibility. Using display: hidden is evil.
+  This makes things keyboard friendly right out tha box! */
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  top: -20px;
+}
+
+.radio-group button.not-active {
+  color: #3276b1 !important;
+  background-color: #fff !important;
+}
+
+

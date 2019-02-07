@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Open Study japanese</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
+          type="text/css">
+
+    <!-- Custom styles for this template -->
+</head>
+<body>
+<br>
+
+<audio type="audio/mp3" src="http://translate.google.com/translate_tts?ie=UTF-8&total=1&idx=0&textlen=64&client=tw-ob&q=%E5%BE%A1%E9%A3%AF&tl=ja-jp"></audio>
+
+<div class="req" style="width: 100%; text-align: center">
+    <span>URL :</span>
+    <input type="text" class="url" id="url" style="width: 85%;"/>
+    <button type="button" class="btn">GO!</button>
+</div>
+<br>
+
+<div style="text-align: center">
+    <p>[Result]</p>
+    <textarea class="result-text" style="width: 90%; height: 500px"></textarea>
+</div>
+
+
+
+
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/jquery.ajax-cross-origin.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js"></script>
+<script src="/js/common/custom.min.js"></script>
+<script src="/js/common/service.js"></script>
+<script src="/js/common/common.js"></script>
+
+
+
+
+<script type="text/javascript">
+    $(document).ready();
+
+    String.prototype.replaceAll = function(target, replacement) {
+        return this.split(target).join(replacement);
+    };
+
+    function extractData(el, idx){
+        var wordMap = {};
+        wordMap['no'] = idx;
+        wordMap['word'] = el.find(".flk_top > .cen_txt > a:first").text();
+        wordMap['pron'] = el.find(".flk_top > .cen_txt > .sym").text();
+        wordMap['mean'] = el.find(".cen_txt_sub").text();
+        wordMap['ex-word'] = el.find(".area_ex > .flk_dn > span:first").text().replaceAll("play", "");
+        wordMap['ex-mean'] = el.find(".cen_mean").text();
+        return wordMap;
+    }
+
+   $(".btn").click(function() {
+       var word = $('audio')[0];
+       word.play();
+       return false;
+//       var url = $("#url").val();
+//       var params = {};
+//       params.url = url;
+//
+//       function successHandler(data) {
+//           //alert(JSON.stringify(jqXHR));
+//       }
+//
+//       function errorHandler(jqXHR, status, err) {
+//           var wordList = [];
+//           var htmlStr = jqXHR.responseText;
+//
+//           $(htmlStr).find('.book_bg3').each(function(index){
+//               var domObj = $(this);
+//               wordList.push(extractData(domObj, index));
+//           });
+//           //alert(JSON.stringify(wordList));
+//           $(".result-text").text(JSON.stringify(wordList));
+//
+//       }
+//       service.collectWord(params, successHandler, errorHandler);
+    });
+
+</script>
+
+</body>
+</html>

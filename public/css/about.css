@@ -1,0 +1,664 @@
+/*!
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+}
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin: 10px
+}
+.section-header {
+  text-align:center;
+}
+
+section .container{
+  margin: auto;
+  width: 100%;
+  padding: 0;
+  background-color: whitesmoke;
+  /*background-color: #babd8b;*/
+}
+
+
+
+.intro-header {
+  padding-top: 50px;
+  text-align: center;
+  color: #f8f8f8;
+  background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../img/about-bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+.intro-header .container {
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+.intro-message {
+  text-align: right;
+  position: relative;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+  padding: 15px 20% 15px 15px;
+}
+.intro-message h3{
+  color: whitesmoke;
+  font-size: 4rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.intro-message-block-top {
+  height: 120px;
+}
+.intro-message-block-bottom {
+  height: 360px;
+}
+
+
+
+.about {
+  padding: 60px 0 60px 0;
+  text-align: center;
+  color: #777;
+}
+.about h3{
+  margin-bottom: 30px;
+}
+.about p {
+  padding: 0;
+  margin: 0 5% 0 5%;
+}
+.about p.oblique {
+   font-size: 18px;
+   font-style: oblique;
+   margin: 15px 3% 15px 3%;
+ }
+
+
+.catch-phrase {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 15px 30% 15px 30%;
+  background-color: gray;
+}
+.catch-phrase h3 {
+  padding:0;
+  margin: 0 0 10px 0;
+}
+.catch-phrase p {
+  padding: 0;
+  margin: 0 0 5px 0;
+}
+
+
+
+
+
+hr{
+  width: 50%;
+  margin-top: 10px;
+}
+.tutorial-wrapper {
+  background: url("../img/bg-tutorial-w.jpg");
+  background-size: cover;
+}
+.tutorial{
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.44);
+  color: whitesmoke;
+}
+.tutorial h3{
+  text-align: left;
+  margin: 0 25% 0 25%;
+  padding: 40px 0 20px 0;
+}
+.tutorial p {
+  text-align: left;
+  margin: 0 25% 5px 25%;
+}
+.tutorial .character {
+  margin-bottom: 40px;
+}
+.tutorial .character h3{
+  padding: 60px 0 0 0;
+}
+.tutorial .word-kanji h3{
+  /*text-align: left;*/
+  /*margin: 0 25% 0 25%;*/
+  padding: 40px 0 0 0;
+}
+.tutorial .word-kanji li{
+  text-align: left;
+  margin: 0 25% 5px 25%;
+  padding-left: 1.5em;
+  text-indent:-1.4em;
+}
+.tutorial .img-char{
+  width: 30%
+}
+.tutorial .img-word-kanji {
+  width: 40%
+}
+.step {
+  margin: 10px 25% 10px 25%;
+  padding: 10px;
+  background-color:rgba(0, 0, 0, 0.44);
+}
+.step p{
+  margin: 0 0 5px 0;
+  padding-left: 1.5em;
+  text-indent:-1.1em;
+}
+
+
+
+
+.donate {
+  padding: 60px 10px 0px 10px;
+  text-align: center;
+  color: #777;
+}
+.donate h3{
+  margin-bottom: 20px;
+}
+/*.donate p{*/
+  /*text-align: left;*/
+/*}*/
+.info-wrapper {
+  margin-top: 60px;
+  padding: 20px 0 20px 0;
+  background-color:rgba(0, 0, 0, .73);
+  position: relative;
+}
+.info{
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  color: whitesmoke;
+}
+.info p{
+  margin: 0 0 5px 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+/******************/
+/* Narrow Browser */
+/******************/
+@media(max-width:770px) {
+  .intro-divider {
+    width: 100%;
+  }
+  .intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../img/about-bg.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .intro-header .container {
+    padding: 0;
+  }
+  .intro-message {
+    text-align: right;
+    position: relative;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    padding: 15px 10% 15px 15px;
+
+  }
+  .intro-message h3{
+    font-size: 2.5rem;
+  }
+  .intro-message-block-top {
+    height: 40px;
+  }
+  .intro-message-block-bottom {
+    height: 120px;
+  }
+  .about{
+    padding: 60px 0 60px 0;
+  }
+  .about h3{
+    margin-bottom: 30px;
+  }
+  .about p {
+    padding: 0;
+    margin: 0 5% 0 5%;
+  }
+
+
+
+  .catch-phrase {
+    margin: 10px 20% 10px 20%;
+    padding: 20px 5% 20px 5%;
+  }
+  .catch-phrase p {
+    padding: 0;
+    margin: 0 0 5px 0;
+  }
+
+
+  hr{
+    width: 80%;
+  }
+  .tutorial h3{
+    margin: 0 10% 0 10%;
+    padding: 20px 0 20px 0;
+  }
+  .tutorial h3[class="title"]{
+    text-align: center;
+  }
+  .tutorial p{
+    text-align: left;
+    margin: 0 10% 0 10%;
+  }
+  .tutorial .summary p{
+    text-align: left;
+    margin: 0 10% 0 10%;
+  }
+  .tutorial .character h3{
+    margin: 0 10% 0 10%;
+    padding: 30px 0 0 0;
+  }
+  .tutorial .word-kanji h3{
+    margin: 0 10% 0 10%;
+    padding: 30px 0 0 0;
+  }
+  .tutorial .word-kanji li{
+    text-align: left;
+    margin: 0 10% 5px 10%;
+    padding-left: 1.5em;
+    text-indent:-1.4em;
+  }
+  .tutorial .img-char {
+    width: 50%
+  }
+  .tutorial .img-word-kanji {
+    width: 65%
+  }
+  .step {
+    margin: 10px 10% 10px 10%;
+    padding: 10px;
+    background-color:rgba(0, 0, 0, 0.44);
+  }
+  .step p{
+    margin: 0 0 5px 0;
+    padding-left: 1.5em;
+    text-indent:-1.1em;
+  }
+
+}
+
+
+
+
+
+
+
+/*********/
+/* Phone */
+/*********/
+@media(max-width:450px) {
+  .intro-divider {
+    width: 100%;
+  }
+  .intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../img/about-bg.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  .intro-header .container {
+    padding: 0;
+  }
+  .intro-message {
+    text-align: right;
+    position: relative;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    padding: 15px 10% 15px 15px;
+  }
+  .intro-message h3{
+    font-size: 2rem;
+  }
+  .intro-message-block-top {
+    height: 40px;
+  }
+  .intro-message-block-bottom {
+    height: 120px;
+  }
+  .about{
+    padding: 30px 0 30px 0;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .about h3{
+    margin-bottom: 20px;
+  }
+  .about p{
+    text-align: left;
+    margin: 0 3% 0 3%;
+  }
+
+
+
+  .catch-phrase {
+    margin: 10px 10% 10px 10%;
+    padding: 20px 5% 20px 5%;
+  }
+  .catch-phrase p {
+    padding: 0;
+    margin: 0 0 5px 0;
+  }
+
+
+
+  hr {
+    width: 90%;
+  }
+  .tutorial-wrapper {
+    background: url("../img/bg-tutorial-p.jpg");
+    background-size: cover;
+  }
+  .tutorial h3{
+    text-align: center;
+    padding: 20px 0 20px 0;
+  }
+  .tutorial p{
+    margin: 0 5% 0 5%;
+  }
+  .tutorial .summary p{
+    text-align: left;
+    margin: 0 5% 0 5%;
+  }
+  .tutorial .character h3{
+    margin: 0 5% 0 5%;
+    padding: 30px 0 0 0;
+  }
+  .tutorial .word-kanji h3{
+    margin: 0 5% 0 5%;
+    padding: 30px 0 0 0;
+  }
+  .tutorial .word-kanji li{
+    text-align: left;
+    margin: 0 5% 5px 5%;
+    padding-left: 1.5em;
+    text-indent:-1.4em;
+  }
+  .tutorial .img-char {
+    width: 90%
+  }
+  .tutorial .img-word-kanji {
+    width: 90%
+  }
+  .step {
+     margin: 10px;
+     padding: 10px;
+     background-color:rgba(0, 0, 0, 0.44);
+   }
+  .step p{
+    margin: 0 0 5px 0;
+    padding-left: 1.5em;
+    text-indent:-1.1em;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/**********
+ * Common *
+ **********/
+.content-section{
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+
+#navbarResponsive ul {
+  float: right;
+}
+
+.tab-pane {
+  text-align: center;
+}
+.element-off{
+  display:none;
+}
+
+
+
+
+
+
+
+
+/********
+ * Page *
+ ********/
+
+
+
+.section-page{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.page {
+  height: 200px;
+  text-align: center;
+  margin: 50px 0px 50px 0px;
+  padding: 10px 0px 10px 0px;;
+  background-color: #b3d7ff;
+}
+
+.word-pane {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  clear: both;
+}
+
+.word {
+  font-size: 4rem;
+  margin-bottom: 0px;
+}
+
+.word-pron {
+  font-size: 3rem;
+}
+
+.word-mean {
+  font-size: 1.8rem;
+}
+
+.area-e x {
+  background-color: whitesmoke;
+  padding: 10px;
+}
+.ex-word{
+  font-size: 2rem;
+  margin: 0px;
+}
+.ex-mean {
+  font-size: 1.8rem;
+  margin: 0px;
+}
+
+
+
+
+/* Play Controller */
+.controller {
+  text-align: center;
+  width: 100%;
+  margin: 20px 0 0 0;
+}
+.play-ctr {
+  text-align: center;
+  margin: 15px 15px 0 15px;
+}
+.play-ctr button{
+  width: 39px;
+  padding: 6px 10px 6px 10px;
+}
+.play-ctr i{
+  vertical-align: middle;
+}
+.ctr-list {
+  margin-left:5px;
+  margin-right:2px;
+  color: dimgray;
+}
+.ctr-config {
+  margin-left:3px;
+  color: dimgray;
+}
+
+
+#block-dialog{
+  height: 5px;
+}
+
+.modal-body input{
+
+}
+
+
+
+.slider {
+  margin-right: 10px;
+}
+
+.word-haeder {
+  margin: 1rem;
+}
+.word-haeder > span {
+  float: left;
+  line-height: 3em;
+}
+
+
+
+
+.word {
+  color: #337ab7;
+}
+.word-pane p:not(.word) {
+  color: #606060;
+}
+.display-off {
+  opacity: 0.0;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  top: 120px !important;
+}
+
+.carousel-control.left, .carousel-control.right{
+  background: none !important;
+  color: lightgrey;
+}
+.area-ex {
+  background-color: whitesmoke;
+}
+
+
+#radio-play-type .notActive{
+  color: #3276b1;
+  background-color: #fff;
+}
+
+
+.config-word-mean{
+  vertical-align: middle;
+}
+.config-cnt {
+  font-size: 20px;
+  color: #dc3545;
+}
+
+
+/*slider*/
+.slider-horizontal {
+  width: 100% !important;
+}
+/*#slider-display .slider-track-high {*/
+  /*background: green;*/
+/*}*/
+.config-day .slider-selection {
+  background: #3276b1 !important;
+}
+.config-display .slider-track-low {
+  background: #3276b1 !important;
+}
+
+.config-display .slider-selection {
+  background: #9dc2e3   !important;
+}
+
+
+
+
+
+/* Mobile */
+@media (max-width: 450px) {
+  .box-bottom {
+    height: 200px;
+  }
+
+  .word {
+    font-size: 4rem;
+    margin-bottom: 0px;
+  }
+  .word-pron {
+    font-size: 3rem;
+  }
+  .word-mean {
+    font-size: 1.8rem;
+  }
+  .area-ex {
+    background-color: whitesmoke;
+    padding: 10px;
+  }
+  .ex-word {
+    font-size: 2rem;
+    margin: 0px;
+  }
+  .ex-mean {
+    font-size: 1.8rem;
+    margin: 0px;
+  }
+
+}
+
+
+
+
+

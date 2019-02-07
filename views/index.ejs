@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108664644-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108664644-1');
+    </script>
+    <!-- /Global site tag (gtag.js) - Google Analytics -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Open Study Japanese</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+
+
+
+</head>
+
+<body id="contents">
+
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="myTooltip" class="navbar-brand" href="/" data-toggle="tooltip" title="Hooray!" i18n="index.title"  ></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <!--### left menu of navigation bar ###-->
+            <!--<ul class="nav navbar-nav"></ul>-->
+
+            <!--### right menu of navigation bar ###-->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/about" i18n="index.about"></a></li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle"
+                       data-toggle="dropdown"
+                       href="#">
+                        <i class="fa fa-globe fa-lg" aria-hidden="true"></i>
+                        <span i18n="comm.language"></span>
+                    </a>
+
+                    <ul class="dropdown-menu drop-language">
+                        <li><a value="en">English</a></li>
+                        <li><a value="ko">Korean</a></li>
+                    </ul>
+                </li>
+                <!--<li><a href="#" i18n="index.login"></a></li>-->
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+<!-- Navigation End-->
+
+
+<!-- Header -->
+<header class="intro-header">
+    <div class="intro-header-wrapper">
+        <div class="container">
+            <div class="intro-message">
+                <h1 i18n="index.body.title"></h1>
+                <p></p>
+                <h3 i18n="index.body.titleSub"></h3>
+                <hr class="intro-divider">
+
+                <div class="menu">
+                    <a href="/char">
+                        <div type="button" class="btn btn-default btn-lg " data-toggle="tooltip" title="Hooray!"
+                             i18n="index.category.character"></div>
+                    </a>
+                    <a href="/word">
+                        <div type="button" class="btn btn-default btn-lg " i18n="index.category.word"></div>
+                    </a>
+                    <a href="/kanji">
+                        <div type="button" class="btn btn-default btn-lg " i18n="index.category.kanji"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header End-->
+
+
+<!-- Page Content -->
+
+<!-- /.content-section-a -->
+
+
+<!-- Footer -->
+<footer>
+    <div class="socializer">
+        <a><i class="fa fa-facebook-square fa-3x sns" aria-hidden="true" name="facebook"></i></a>
+        <a><i class="fa fa-google-plus-square fa-3x sns" aria-hidden="true" name="google"></i></a>
+        <a><i class="fa fa-twitter-square fa-3x sns" aria-hidden="true" name="twitter"></i></a>
+        <a><i class="fa fa-linkedin-square fa-3x sns" aria-hidden="true" name="linkedin"></i></a>
+        <a><i class="fa fa-pinterest-square fa-3x sns" aria-hidden="true" name="pinterest"></i></a>
+        <a><img class="sns" src="/img/social-line.png" name="line"></a>
+    </div>
+    <div class="container footer">
+        <p class="copyright text-muted small">Copyright &copy; Open Study Japanese 2017. All Rights Reserved</p>
+    </div>
+</footer>
+<!-- Footer End -->
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/jquery/jquery.session.js"></script>
+<script src="vendor/popper/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap3-dialog/1.34.7/js/bootstrap-dialog.min.js"></script>
+<script src="/js/common/custom.min.js"></script>
+<script src="/js/common/service.js"></script>
+<script src="/js/common/common.js"></script>
+
+
+<script type="text/javascript">
+    var LANG = $.session.get("lang");
+
+    $('#myTooltip').tooltip();
+
+    $(document).ready(init);
+
+    function init() {
+
+        setLanguage();
+        comm.setI18nMessage(LANG);
+        comm.applyI18n("#contents");
+    }
+
+    function setLanguage(){
+        if(!LANG){
+            var browserLang =  $.cookie('browser_lang');
+            if(browserLang){
+                $.session.set("lang", browserLang);
+                LANG = browserLang;
+            } else {
+                $.session.set("lang", "en");
+                LANG = "en";
+            }
+        }setI18nMessage
+    }
+
+    $('.drop-language li a').on('click', function () {
+        var lang = $(this).attr("value");
+        $.session.set("lang", lang);
+        comm.setI18nMessage(lang);
+        comm.applyI18n("#contents");
+        $('.navbar-toggle').click();
+    });
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

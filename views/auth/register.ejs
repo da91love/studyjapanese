@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel='stylesheet' href='../css/style.css'/>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src="../js/service.js"></script>
+
+
+</head>
+<body>
+<h1>Register</h1>
+<br><br>
+<section class="register-nomal">
+    <h2>Register with id/password</h2>
+    <br>
+    <p>
+        <label for="user-id" class="lb-id">E-Mail</label>
+        <input type="text" id="user-email" class="user-id"/>
+    </p>
+    <p>
+        <label for="pwd" class="lb-pw">Password</label>
+        <input type="password" id="user-pwd" class="pwd" pattern="(?=.*\d)(?=.*[!@#$%&*])(?=.*[a-z])(?=.*[A-Z]).{8,}"/>
+    </p>
+    <p>
+        <button id="register">register</button>
+    </p>
+</section>
+<br><hr><br>
+<section class="register-email">
+    <h2>Register with email verification</h2>
+    <br>
+    <p>
+        <label for="user-id" class="lb-id">E-Mail</label>
+        <input type="text" id="user-email-veri" class="user-id"/>
+    </p>
+    <p>
+        <label for="pwd" class="lb-pw">Password</label>
+        <input type="password" id="user-pwd-veri" class="pwd" pattern="(?=.*\d)(?=.*[!@#$%&*])(?=.*[a-z])(?=.*[A-Z]).{8,}"/>
+    </p>
+    <p>
+        <button id="register-email">register</button>
+    </p>
+
+</section>
+
+
+
+
+
+<script type="text/javascript">
+
+    function init() {
+
+    }
+
+    $(".register-nomal button").click(function () {
+        var params = {};
+        params.email = $('#user-email').val();
+        params.password = $('#user-pwd').val();
+
+        function successHandler(resultData) {
+            //alert("Result Data: " + JSON.stringify(resultData));
+            if (resultData.affectedRows = 1) {
+                alert("사용자 등록 완료");
+                var url = "./auth/welcome";
+                $(location).attr('href', url);
+            }
+        }
+        service.register(params, successHandler);
+    });
+
+    $(".register-email button").click(function () {
+        var params = {};
+        params.email = $('#user-email-veri').val();
+        params.password = $('#user-pwd-veri').val();
+
+        function successHandler(resultData) {
+            //alert("Result Data: " + JSON.stringify(resultData));
+            if (resultData.sentAuthMail) {
+                alert("등록하신 이메일로 인증해 주세요.");
+                var url = "/";
+                $(location).attr('href', url);
+            }
+        }
+        service.registerWithEmail(params, successHandler);
+    });
+
+    init();
+
+</script>
+</body>
+</html>
