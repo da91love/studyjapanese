@@ -12,12 +12,12 @@ var service = service || {};
 var conn_url = window.location.href;
 var HOST = "";
 
-if(conn_url.indexOf("www") == -1){
-    HOST = "http://studyjp.ga";
-} else {
-    HOST = "http://www.studyjp.ga";
-}
-HOST = "http://localhost:3333";
+// if(conn_url.indexOf("www") == -1){
+//     HOST = "http://studyjp.ga";
+// } else {
+//     HOST = "http://www.studyjp.ga";
+// }
+// HOST = "http://localhost:3333";
 
 
 service.serviceErrorHandler = function(jqXHR, textStatus, errorThrown) {
